@@ -46,7 +46,17 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 
 4-bit Count Down Counter
 ### Procedure
-/* write all the steps invloved */
+~~~
+1.Create a new project in QuartusII software.
+2.Name the project as uc for upcounter and dc for down counter.
+3.Create a new verilog hdl file in the project file.
+4.Name the module as dc and uc for down counter and up counter.
+5.Within the module declare input and output variables.
+6.Create a loop using if-else with condition parameter as reset value.
+7.End the loop.
+8.End the module.
+~~~
+
 
 
 
@@ -100,26 +110,48 @@ endmodule
 
 
 ### RTL LOGIC UP COUNTER AND DOWN COUNTER  
+### up counter
+
+![1](https://user-images.githubusercontent.com/93427183/169954837-32523459-e83f-4da9-b4cf-0e73b10c7535.png)
+
+
+### down counter
 
 
 
 
+![2](https://user-images.githubusercontent.com/93427183/169954854-67b65e9b-32ea-4973-8495-e67a142e63e7.png)
 
 
 
 
 
 ### TIMING DIGRAMS FOR COUNTER  
+### up counter
+
+![3](https://user-images.githubusercontent.com/93427183/169954893-5e595c23-5229-4868-961d-67b623cc3da8.png)
 
 
+### down counter
+
+
+
+
+![4](https://user-images.githubusercontent.com/93427183/169954911-587af108-a241-4136-bab9-0137b3293897.png)
 
 
 
 ### TRUTH TABLE 
+### up counter
+![5](https://user-images.githubusercontent.com/93427183/169954946-5994fa19-b37a-419f-a00a-df37da818ba1.png)
 
 
 
+### down counter
+
+![6](https://user-images.githubusercontent.com/93427183/169954968-86df05cf-f550-4eab-ad97-d07799d00a48.png)
 
 
 
-### RESULTS 
+### RESULTS Thus Synchornous counters up counter and down counter circuit are studied and the truth table for different logic gates are verified.
+
